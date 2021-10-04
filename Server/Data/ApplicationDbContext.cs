@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SettleWith.Shared.DataModels;
 
 namespace SettleWith.Server.Data
 {
@@ -9,5 +10,7 @@ namespace SettleWith.Server.Data
             : base(options)
         {
         }
+
+        public DbSet<Item> Items { get; set; }
     }
 }
