@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using SettleWith.Shared;
+using SettleWith.Domain;
 
 namespace SettleWith.Server.Controllers
 {

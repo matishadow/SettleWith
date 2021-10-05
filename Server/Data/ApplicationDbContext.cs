@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using SettleWith.Shared.DataModels;
+using SettleWith.Domain.DataModels;
 
 namespace SettleWith.Server.Data
 {

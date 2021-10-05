@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SettleWith.Shared
+namespace SettleWith.Domain
 {
     public class WeatherForecast
     {

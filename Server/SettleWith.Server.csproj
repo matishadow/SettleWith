@@ -18,7 +18,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Client\SettleWith.Client.csproj" />
-    <ProjectReference Include="..\Shared\SettleWith.Shared.csproj" />
+    <ProjectReference Include="..\SettleWith.Adapters\SettleWith.Adapters.csproj" />
+    <ProjectReference Include="..\SettleWith.Application\SettleWith.Application.csproj" />
+    <ProjectReference Include="..\Shared\SettleWith.Domain.csproj" />
   </ItemGroup>
 
 

@@ -1,4 +1,4 @@
-namespace SettleWith.Shared.DataModels
+namespace SettleWith.Domain.DataModels
 {
     public class Item
     {
